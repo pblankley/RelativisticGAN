@@ -1,0 +1,2 @@
+echo "starting GAN run"
+python GAN_losses_iter_PAC.py --loss_D 7 --image_size 256 --seed 1 --lr_D .0002 --lr_G .0002 --batch_size 32 --Diters 1 --arch 0 --beta1 .50 --beta2 .999 --n_iter 100000 --gen_every 1000 --print_every 1000 --G_h_size 32 --D_h_size 32 --gen_extra_images 4000 --input_folder '../data/data_cubism' --output_folder '../data/results_cubism' --extra_folder '../data/extra_results_cubism'

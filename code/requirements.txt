@@ -1,0 +1,8 @@
+torch
+torchvision
+tensorflow
+scipy
+opencv-python
+graphviz
+inception
+ipython
